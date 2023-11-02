@@ -1,0 +1,201 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
+.container-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+
+    position: relative;
+}
+
+.header-list {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;    
+}
+
+.btn_add {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(img/add.png);
+    background-size: cover;
+    background-color: white;
+}
+
+.list {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid;
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+.list_item {
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.product_title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.product_name {
+    width: 50%;
+    text-align: left;
+}
+
+.product_price {
+    width: 30%;
+    text-align: center;
+}
+
+.actions {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_edit {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(img/edit.png);
+    background-size: cover;
+    background-color: white;
+}
+
+.btn_delete {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-image: url(img/delete.png);
+    background-size: cover;
+    background-color: white;
+}
+
+.hiden {
+    display: none;
+}
+
+.create-item_list {
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 380px;
+    padding: 10px;
+    background-color: white;
+
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+}
+
+.form_title {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input_create {
+    font-size: 16px;
+
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+
+    padding: 5px;    
+    border-radius: 10px;
+}
+
+.buttons_create-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.buttons_create {
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.confirmation-box {
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+}
+
+.confirmation-title {
+    font-weight: bold;
+}
+
+.confirmation-btns_box {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confirmation-btns {
+    background-color: white;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.toolTip {
+    max-width: 300px;
+    padding: 2px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99;
+    background-color: yellow;
+}
+
+.toolTip::before, .toolTip::after {
+    content: ''; 
+    position: absolute;
+    left: 15px;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid yellow;
+}
+
+.toolTip::after {
+    border-bottom: 10px solid yellow;
+    top: -19px; 
+}
+
+.substrate {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: black;
+    z-index: 2;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
