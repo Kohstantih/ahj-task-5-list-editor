@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Список товаров</title>
+</head>
+<body>
+  <div class="container-list">
+    <div class="header-list">
+        <h4 class="list-title">Товары</h4>
+        <button class="btn_add"></button>
+    </div>
+    <div class="list">
+        <div class="product_name product_title list_item">Название</div>
+        <div class="product_price product_title list_item">Стоимость</div>
+        <div class="actions product_title list_item">Действия</div>
+    </div>
+    <form class="create-item_list hiden">
+    <div class="form_title">Название</div>
+    <input type="text" class="input_create aplecation">
+    <div class="form_title">Стоимость</div>
+    <input type="number" class="input_create price">
+    <div class="buttons_create-box">
+        <button type="submit" class="buttons_create btn_save">Сохранить</button>
+        <button class="buttons_create btn_cansel">Отмена</button>
+    </div>    
+  </form>
+  <div class="confirmation-box hiden">
+    <div class="confirmation-title">Вы действительно хотите удалить запись?</div>
+    <div class="confirmation-btns_box">
+        <button class="confirmation-btns confirmation-btn_yes">ДА</button>
+        <button class="confirmation-btns confirmation-btn_no">НЕТ</button>
+    </div>
+  </div>
+  </div>
+  <div class="substrate hiden"></div>
+</body>
+</html>
